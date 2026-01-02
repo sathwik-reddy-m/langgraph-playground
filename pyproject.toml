@@ -1,0 +1,21 @@
+[project]
+name = "langgraph-playground"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "sathwik-reddy-m",email = "sathwikreddym79@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "langgraph (>=1.0.5,<2.0.0)",
+    "langchain (>=1.2.0,<2.0.0)",
+    "langchain-openai (>=1.1.6,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "langgraph_playground", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

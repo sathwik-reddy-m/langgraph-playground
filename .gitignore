@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Poetry
+.poetry/
+poetry.lock
+
+# Virtual environments
+.venv/
+.env
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
